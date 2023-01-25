@@ -1,4 +1,4 @@
-/**
+s/**
 * Template Name: Bootslander - v2.0.0
 * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
 * Author: BootstrapMade.com
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(1, 4, 136, 0.9);
+  background: rgba(14, 14, 15, 0.91);
   height: 60px;
 }
 
@@ -400,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  background: rgba(14, 14, 15, 0.91);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1391,7 +1391,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #010351;
+  background: rgba(14, 14, 15, 0.91);;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1403,7 +1403,7 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #010246;
+  background: rgba(14, 14, 15, 0.91);
   color: #fff;
   border-top: 4px solid #1acc8d;
   text-align: center;
@@ -1525,7 +1525,6 @@ section {
 }
 
 #footer .copyright {
-  border-top: 1px solid #010479;
   text-align: center;
   padding-top: 30px;
 }
