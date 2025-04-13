@@ -573,66 +573,43 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  padding: 0;
+  padding: 60px 0;
+  background-color: #f9f9f9;
 }
 
-.about .icon-boxes h3 {
-  font-size: 28px;
-  font-weight: 700;
-  color: #010483;
-  margin-bottom: 15px;
+.about .section-title {
+  margin-bottom: 40px;
 }
 
 .about .icon-box {
-  margin-top: 40px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.about .icon-box .icon {
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 64px;
-  height: 64px;
-  border: 2px solid #7ceec6;
-  border-radius: 50px;
-  transition: 0.5s;
+.about .icon-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-.about .icon-box .icon i {
-  color: #1acc8d;
-  font-size: 32px;
+.about .icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
 }
 
-.about .icon-box:hover .icon {
-  background: #1acc8d;
-  border-color: #1acc8d;
-}
-
-.about .icon-box:hover .icon i {
-  color: #fff;
-}
-
-.about .icon-box .title {
-  margin-left: 85px;
-  font-weight: 700;
+.about .title {
+  font-size: 1.5rem;
+  font-weight: bold;
   margin-bottom: 10px;
-  font-size: 18px;
+  color: #333;
 }
 
-.about .icon-box .title a {
-  color: #343a40;
-  transition: 0.3s;
-}
-
-.about .icon-box .title a:hover {
-  color: #1acc8d;
-}
-
-.about .icon-box .description {
-  margin-left: 85px;
-  line-height: 24px;
-  font-size: 14px;
+.about .description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
 }
 
 .about .video-box {
@@ -769,81 +746,138 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+.features {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
 .features .icon-box {
-  display: flex;
-  align-items: center;
+  background: #fff;
+  border-radius: 12px;
   padding: 20px;
-  background: #f5f5ff;
-  transition: ease-in-out 0.3s;
-}
-
-.features .icon-box i {
-  font-size: 32px;
-  padding-right: 10px;
-  line-height: 1;
-}
-
-.features .icon-box h3 {
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-size: 16px;
-}
-
-.features .icon-box h3 a {
-  color: #010483;
-  transition: ease-in-out 0.3s;
-}
-
-.features .icon-box h3 a:hover {
-  color: #01036f;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .features .icon-box:hover {
-  background: #ebebff;
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.features .icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.features .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.features .description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.features .btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 50px;
+  background-color: #d63447;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.features .btn:hover {
+  background-color: #ff4757;
+}
+
+/*--------------------------------------------------------------
+# Steps
+--------------------------------------------------------------*/
+.steps {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.steps .icon-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.steps .icon-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.steps .icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.steps .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.steps .description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
 }
 
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: #f5f5ff;
-  padding: 70px 0 60px;
+  padding: 60px 0;
+  background-color: #f9f9f9;
 }
 
-.counts .count-box {
-  padding: 30px 30px 25px 30px;
-  width: 100%;
-  position: relative;
-  text-align: center;
+.counts .section-title {
+  margin-bottom: 40px;
+}
+
+.counts .icon-box {
   background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.counts .count-box i {
-  position: absolute;
-  top: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 24px;
-  background: #1acc8d;
-  padding: 12px;
-  color: #fff;
-  border-radius: 50px;
+.counts .icon-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-.counts .count-box span {
-  font-size: 36px;
-  display: block;
-  font-weight: 600;
-  color: #010483;
+.counts .icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
 }
 
-.counts .count-box p {
-  padding: 0;
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+.counts .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.counts .description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
 }
 
 /*--------------------------------------------------------------
@@ -893,6 +927,62 @@ section {
 
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
+}
+
+/*--------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+.blog {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.blog .blog-item {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.blog .blog-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.blog .blog-item img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.blog .blog-item .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #333;
+}
+
+.blog .blog-item .description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.blog .blog-item .btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 50px;
+  background-color: #d63447;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.blog .blog-item .btn:hover {
+  background-color: #ff4757;
 }
 
 /*--------------------------------------------------------------
@@ -1084,191 +1174,131 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.pricing {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
 .pricing .box {
-  padding: 20px;
   background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.pricing h3 {
-  font-weight: 400;
-  margin: -20px -20px 20px -20px;
-  padding: 20px 15px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #777777;
-  background: #f8f8f8;
+.pricing .box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-.pricing h4 {
-  font-size: 36px;
-  color: #1acc8d;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 20px;
+.pricing .box .icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
 }
 
-.pricing h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
+.pricing .box h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
 }
 
-.pricing h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
+.pricing .box h4 {
+  font-size: 2rem;
+  color: #d63447;
+  margin-bottom: 15px;
 }
 
-.pricing ul {
-  padding: 0;
+.pricing .box ul {
   list-style: none;
-  color: #444444;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
+  padding: 0;
+  margin: 0 0 20px 0;
 }
 
-.pricing ul li {
-  padding-bottom: 16px;
-}
-
-.pricing ul i {
-  color: #1acc8d;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-
-.pricing .btn-wrap {
-  margin: 20px -20px -20px -20px;
-  padding: 20px 15px;
-  background: #f8f8f8;
-  text-align: center;
+.pricing .box ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #555;
 }
 
 .pricing .btn-buy {
-  background: #1acc8d;
   display: inline-block;
-  padding: 8px 35px 10px 35px;
-  border-radius: 50px;
+  padding: 10px 25px;
+  font-size: 1rem;
   color: #fff;
-  transition: none;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
+  background-color: #d63447;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
 .pricing .btn-buy:hover {
-  background: #149f6e;
-}
-
-.pricing .featured h3 {
-  color: #fff;
-  background: #1acc8d;
-}
-
-.pricing .advanced {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: #1acc8d;
-  color: #fff;
+  background-color: #ff4757;
 }
 
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
-.faq .faq-list {
-  padding: 0;
+.faq {
+  padding: 60px 0;
+  background-color: #f9f9f9;
 }
 
-.faq .faq-list ul {
+.faq .faq-list {
   padding: 0;
   list-style: none;
 }
 
-.faq .faq-list li + li {
-  margin-top: 15px;
+.faq .faq-list ul {
+  list-style: none;
+  padding: 0;
 }
 
 .faq .faq-list li {
-  padding: 20px;
+  margin-bottom: 20px;
   background: #fff;
-  border-radius: 4px;
-  position: relative;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.faq .faq-list li:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.faq .faq-list li i.icon-help {
+  font-size: 1.5rem;
+  color: #d63447;
+  margin-right: 15px;
 }
 
 .faq .faq-list a {
   display: block;
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  padding: 0 30px;
-  outline: none;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  flex-grow: 1;
 }
 
-.faq .faq-list .icon-help {
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  left: 20px;
-  color: #34e5a6;
+.faq .faq-list a:hover {
+  color: #d63447;
 }
 
-.faq .faq-list .icon-show, .faq .faq-list .icon-close {
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.faq .faq-list p {
-  margin-bottom: 0;
-  padding: 10px 0 0 0;
-}
-
-.faq .faq-list .icon-show {
-  display: none;
-}
-
-.faq .faq-list a.collapsed {
-  color: #343a40;
-}
-
-.faq .faq-list a.collapsed:hover {
-  color: #1acc8d;
-}
-
-.faq .faq-list a.collapsed .icon-show {
-  display: inline-block;
-}
-
-.faq .faq-list a.collapsed .icon-close {
-  display: none;
-}
-
-@media (max-width: 1200px) {
-  .faq .faq-list {
-    padding: 0;
-  }
+.faq .faq-answer {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #e8f5e9; /* Verde caldo */
+  border-left: 5px solid #4caf50; /* Verde più scuro */
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #2e7d32;
+  line-height: 1.6;
 }
 
 /*--------------------------------------------------------------
