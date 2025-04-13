@@ -1,4 +1,4 @@
-s/**
+/**
 * Template Name: Bootslander - v2.0.0
 * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
 * Author: BootstrapMade.com
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(14, 14, 15, 0.91);
+  background: rgba(172, 7, 13, 0.91);
   height: 60px;
 }
 
@@ -400,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(14, 14, 15, 0.91);
+  background: rgba(172, 7, 13, 0.91);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -734,6 +734,36 @@ section {
     transform: scale(1, 1);
     opacity: 0;
   }
+}
+
+.icon-box img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.icon-box h4 {
+  font-size: 2rem;
+  color: #d63447;
+  margin-bottom: 1rem;
+}
+
+.icon-box p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.icon-box ul {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+}
+
+.icon-box ul li {
+  margin-bottom: 0.5rem;
 }
 
 /*--------------------------------------------------------------
@@ -1540,4 +1570,20 @@ section {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+}
+
+.btn-get-started {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 1.2rem;
+  background-color: #06ac25;
+  color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-get-started:hover {
+  background-color: #ff4757;
+  transform: scale(1.1);
 }
