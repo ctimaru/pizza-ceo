@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Ristoordini - ordinazioni online per pizzerie e ristoranti</title>
+  <title>Pizza CEO - ordinazioni online per pizzerie e ristoranti</title>
   <meta content="" name="">
   <meta content="" name="keywords">
   <meta name="google-site-verification" content="7JjQzPyxq1DeT-G9EQ_-C5Ne25uJhZgmxFUAs0AIuWw" />
@@ -44,8 +44,9 @@
           <li class="active"><a href="#header">Home</a></li>
           <li><a href="#about">Chi siamo</a></li>
           <li><a href="#features">Demo</a></li>
+          <li><a href="#steps">Abbonati</a></li>
           <li><a href="#pricing">Prezzi</a></li>
-          <li><a href="#contact">Contatti</a></li>
+          <li><a href="#faq">Domande Frequenti</a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -549,33 +550,30 @@
                 <strong>P Iva:</strong> 12345678910 (in aggiornamento)<br>
                 <strong>Email:</strong> clienti@pizzaceo.it<br>
               </p>
-              <!-- <div class="social-links mt-3">
+              <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> 
                 <a href="https://www.facebook.com/ordinaapp" class="facebook"><i class="bx bxl-facebook"></i></a>
                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                 <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> 
-              </div> -->
+              </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-3 footer-links">
             <h4>Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Chi siamo</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Servizi</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
+              <li><i class="bx bx-chevron-right"></i> <a href="#" data-toggle="modal" data-target="#terminiModal">Termini e condizioni</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#" data-toggle="modal" data-target="#privacyModal">Privacy policy</a></li>            
+              <li><i class="bx bx-chevron-right"></i> <a href="#" data-toggle="modal" data-target="#cookieModal">Cookie Policy</a></li></ul>
+            </div>
           <div class="col-lg-4 col-md-3 footer-links">
             <h4>I nostri servizi</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Sistema di ordinazione in tempo reale</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Website ottimizzato per la ricerca Google</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Assistenza tecnica continua</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing mirato ed avanzato</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">App Android / iOS</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Sistema di ordinazione in tempo reale</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Website ottimizzato per la ricerca Google</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Assistenza tecnica continua</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Marketing mirato ed avanzato</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">App Android / iOS</a></li>
             </ul>
           </div>
 
@@ -595,6 +593,66 @@
       </div>
     </div>
   </footer><!-- End Footer -->
+
+  <!-- Modale per Termini e Condizioni -->
+  <div id="terminiModal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Termini e Condizioni</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Chiudi">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <iframe src="termini.html" style="width: 100%; height: 400px; border: none;"></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modale per Privacy Policy -->
+<div id="privacyModal" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Privacy Policy</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Chiudi">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe src="privacy.html" style="width: 100%; height: 400px; border: none;"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modale per Cookie Policy -->
+<div id="cookieModal" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cookies Policy</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Chiudi">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe src="cookies.html" style="width: 100%; height: 400px; border: none;"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
   <div id="preloader"></div>

@@ -1617,3 +1617,26 @@ section {
   background-color: #ff4757;
   transform: scale(1.1);
 }
+
+/*--------------------------------------------------------------
+# Modal
+--------------------------------------------------------------*/
+.modal-content {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  background-color: #29cc61; /* Verde per differenziare */
+  color: #fff;
+  border-bottom: none;
+}
+
+.modal-header .close {
+  color: #fff;
+}
+
+.modal-body iframe {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
