@@ -1672,3 +1672,104 @@ section {
 .whatsapp-bar:hover {
   background-color: #1ebe57;
 }
+
+/* Sezione Portfolio */
+#portfolio {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+#portfolio .section-title h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+#portfolio .section-title p {
+  font-size: 1rem;
+  color: #555;
+}
+
+#portfolio img {
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d63447;
+}
+
+#portfolio ul {
+  margin-top: 15px;
+  padding: 0;
+  list-style: none;
+  font-size: 1rem;
+  color: #555;
+}
+
+#portfolio ul li {
+  margin-bottom: 5px;
+}
+
+#portfolio .btn-primary {
+  background-color: #d63447;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+#portfolio .btn-primary:hover {
+  background-color: #ff4757;
+}
+
+/* Personalizzazione delle frecce del carosello */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #ff4757; /* Colore rosso */
+  border-radius: 50%; /* Forma circolare */
+  width: 50px; /* Dimensione maggiore */
+  height: 50px;
+  opacity: 1; /* Sempre visibili */
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: #e03e4d; /* Colore rosso più scuro al passaggio del mouse */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; /* Aumenta l'area cliccabile */
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  content: ''; /* Rimuove eventuali icone predefinite */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff4757;
+}
+
+/* Stile per il contatore */
+.counter {
+  font-weight: bold;
+  color: #d63447; /* Colore rosso per evidenziare */
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.counter::after {
+  content: "+";
+  font-size: 0.8rem;
+  color: #29cc61; /* Verde per indicare crescita */
+  margin-left: 5px;
+}
